@@ -21,7 +21,7 @@ function App() {
         <div className="offer mt-5">
           <h1 className="text-danger">GET 20% Off</h1>
           <p>Use Code: FBGC</p>
-          <button>CREATE</button>
+          <button onClick={()=>alert("Hello !!")}>CREATE</button>
         </div>
       </div>
       <br />
